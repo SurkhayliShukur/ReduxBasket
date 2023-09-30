@@ -65,7 +65,7 @@ const Product = () => {
 
   return (
     <>
-      <nav className="navBar" style={{ backgroundColor: "gray" }}>
+      <nav className="navBar" style={{ backgroundColor: "orange" }}>
         <Link to="/basket" className="linkStyle">
           Basket
         </Link>
@@ -79,7 +79,7 @@ const Product = () => {
         </select>
 
 
-        <input type="text" value={search} onChange={handleSearch} style={{ borderRadius: "10px" }} />
+        <input type="text" value={search} onChange={handleSearch} />
 
       </nav>
       <div className="d-flex justify-content-around align-items-center flex-wrap">
