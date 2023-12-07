@@ -118,10 +118,10 @@ const Product = () => {
                       onClick={() =>
                         dispatch(addToCart({
                           id: product.id,
-                          price: product.price,
-                          amount: product.amount,
+                          price: Number(product.price),
+                          amount: Number(product.amount),
                           images: product.images[0],
-                          totalPrice: product.price,
+                          totalPrice:Number(product.price),
                           description: product.description,
                           rating: product.rating,
                           brand: product.brand,
